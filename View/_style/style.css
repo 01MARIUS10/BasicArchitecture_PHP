@@ -1,0 +1,11 @@
+*{
+    margin:0;
+}
+.etudiant{
+    border:solid 2px red;
+}
+
+
+.parcours{
+    border:solid 2px rgb(0, 21, 255);
+}
