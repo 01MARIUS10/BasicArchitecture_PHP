@@ -9,6 +9,9 @@ class Controller{
     public function getPage(){
         return $this->page;
     }
+    public function renderJson($response){
+        echo json_encode($response);
+    }
 
 }
 

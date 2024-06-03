@@ -27,4 +27,22 @@ function style($style){
 
 
 
+function requireAllIn($directoryPath){
+    $files = scandir($directoryPath);
+
+    foreach ($files as $file) {
+        // Filtrer uniquement les fichiers.php
+        if (pathinfo($file, PATHINFO_EXTENSION) === 'php') {
+            // Construit le chemin complet du fichier
+            $filePath = $directoryPath. '/'. $file;
+            
+            // Charge le fichier
+            require_once $filePath;
+        }
+    }
+}
+
+
+
+
 ?>

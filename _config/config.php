@@ -24,10 +24,10 @@ ini_set('display_errors',true);
     define("WEBSITE_AUTHOR_MAIL","");
 
     //database info
-    define("DATABASE_HOST","localhost");
-    define("DATABASE_NAME","GestionEtudiant");
-    define("DATABASE_USER","root");
-    define("DATABASE_PASSWORD","");
+    define("DATABASE_HOST","127.0.0.1");
+    define("DATABASE_NAME","ECollections");
+    define("DATABASE_USER","Ecollection");
+    define("DATABASE_PASSWORD","Ecollection");
 
 
  ?>

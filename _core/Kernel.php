@@ -13,16 +13,19 @@ require_once '_core/View.php';
 require_once '_core/Controller.php';
 require_once '_core/Model.php';
 
-require_once 'Model/Etudiant.php';
-require_once 'Model/Parcour.php';
+// require_once 'Model/Etudiant.php';
+// require_once 'Model/Parcour.php';
+requireAllIn('Model');
 
+requireAllIn('Controller');
 
-require_once 'Controller/Page.php';
+// require_once 'Controller/Page.php';
 
 
 require_once 'Route.php';
 
 require_once 'WebRoute.php';
+require_once 'ApiRoute.php';
 
 
 ?>
